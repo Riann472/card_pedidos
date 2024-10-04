@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Red Hat Display';
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+
+.card{
+    padding: 10px 0 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    gap: 20px;
+    text-align: center;
+}
+
+.card img{
+    width: 377px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.bola{
+    padding: 25px;
+    width: 0;
+    border-radius: 50px;
+    background: #D9D9D9;
+}
+.wrapper{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    gap: 25px;
+}
+.first{
+    font-size: 20px;
+}
+.a{
+    color: #0E5F9A;
+    font-weight: bold;
+    cursor: pointer;
+}
+.group{
+    background-color: #DEEBFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 20px;
+    align-items: center;
+}
+.sub{
+    display: flex;
+    gap: 20px;
+}
+.sub p{
+    font-size: 14px;
+    text-align: left;
+}
+
+button{
+    background-color: #0E5F9A;
+    padding: 15px 40px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    width: 90%;
+    cursor: pointer;
+}
+
+.cancelar{
+    color: #0E5F9A;
+    cursor: pointer;
+}
